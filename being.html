@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Software Experiences by Robert Nickel</title>
+    <meta name="description"
+        content="Agile Software Engineering from the perspective of an Agile Advocate, Software Engineer and Things Doer.">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="/being.html">\\\ being</a>
+        <a href="/thinking.html">\\\ thinking</a>
+        <a href="/doing.html">\\\ doing</a>
+    </div>
+    <div class="article-box">
+        <br><br><br>
+        <img src="profile.png" class="profile-image">
+        <br>
+        <div class="profile">
+            <p class="profile-comment">I am</p>
+            <p>Robert Nickel -- a (former) Software Engineer, Agile Advocate, Student of Computer Science (Software
+                Engineering) & Things Doer.</p><br>
+
+            <p class="profile-comment">You can contact me at</p>
+            <p><a href="mailto:robert.nickel@aikq.de">robert.nickel@aikq.de</a></p><br>
+
+            <p class="profile-comment">for freelance job offerings, questions, improvement or project ideas, general
+                feedback, greetings, praise, critique, wishes, comments or anything else.</p>
+
+            <p>Skills & Experience:</p>
+            <table align="center">
+                <tr>
+                    <td class="skill">Golang</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="2"></canvas></td>
+                </tr>
+
+                <tr>
+                    <td class="skill">Java</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="4"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Spring Boot</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Angular & Typescript</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">HTML, CSS & JavaScript</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="4"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Android App Dev</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Agile Mindset</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="5"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Software Craftsmanship</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="5"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Scrum & Kanban</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="5"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Software Quality & Testing</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="4"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">Distributed Systems Architecture</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                </tr>
+                <tr>
+                    <td class="skill">UX Design & UI Design</td>
+                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="2"></canvas></td>
+                </tr>
+            </table>
+            <br>
+
+            <p class="text">Since experiencing a whole lot of different tech-stacks I am increasingly
+                technology agnostic. Even knowing a technology today does not mean one still knows it tomorrow. We all
+                have to learn what we need all the time.</p>
+            <p class="text">
+                I see a lot of unneccessarily repeated mistakes (that originate
+                from unproductive mindsets) in the process of software engineering and do address them with the same amount of work as
+                coding itself. I believe many companies need botton-up change, and that the implications of software
+                building are not intuitive to non-technical people, may they be project managers or agile coaches.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <a class="profile-comment" href="impressum.html">Impressum</a> ||
+        <a class="profile-comment" href="dsgvo.html">Data Protection</a>
+    </div>
+</body>
+<script>
+    window.onload = function () {
+        var canvasses = document.getElementsByClassName("focus-points-canvas");
+
+        for (k = 0; k < canvasses.length; k++) {
+            var canvas = canvasses[k]
+            var ctx = canvas.getContext("2d");
+            var points = parseInt(canvas.getAttribute("data-points"), 10);
+
+            ctx.beginPath();
+            ctx.fillStyle = "#000000";
+            for (i = 1; i <= points; i++) {
+                drawCircle(ctx, i);
+            }
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.fillStyle = "#808080";
+            for (j = points + 1; j <= 5; j++) {
+                drawCircle(ctx, j);
+            }
+            ctx.fill();
+        }
+    }
+
+    function drawCircle(ctx, location) {
+        ctx.arc(12 * location, 4, 4, 0, 2 * Math.PI);
+    }
+</script>
+
+</html>
