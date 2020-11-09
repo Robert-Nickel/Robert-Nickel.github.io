@@ -33,53 +33,57 @@
             <p>Skills & Experience:</p>
             <table align="center">
                 <tr>
+                    <td class="skill">Scala</td>
+                    <td><canvas class="focus-points-canvas" data-points="2"></canvas></td>
+                </tr>
+                <tr>
                     <td class="skill">Golang</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="2"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="2"></canvas></td>
                 </tr>
 
                 <tr>
                     <td class="skill">Java</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="4"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="4"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Spring Boot</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="3"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Angular & Typescript</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="3"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">HTML, CSS & JavaScript</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="4"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="4"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Android App Dev</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="3"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Agile Mindset</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="5"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="5"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Software Craftsmanship</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="5"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="5"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Scrum & Kanban</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="5"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="5"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Software Quality & Testing</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="4"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="4"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">Distributed Systems Architecture</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="3"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="3"></canvas></td>
                 </tr>
                 <tr>
                     <td class="skill">UX Design & UI Design</td>
-                    <td><canvas class="focus-points-canvas" width="72" height="8" data-points="2"></canvas></td>
+                    <td><canvas class="focus-points-canvas" data-points="2"></canvas></td>
                 </tr>
             </table>
             <br>
@@ -106,6 +110,8 @@
 
         for (k = 0; k < canvasses.length; k++) {
             var canvas = canvasses[k]
+            canvas.height = 8;
+            canvas.width = 72;
             var ctx = canvas.getContext("2d");
             var points = parseInt(canvas.getAttribute("data-points"), 10);
 
