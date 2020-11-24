@@ -43,7 +43,7 @@ td {
     position: fixed;
     color: white;
     background-color: #202020;
-    height: 3em;
+    height: auto;
     width: 100%;
     padding-left: 1em;
     line-height: 3em;
