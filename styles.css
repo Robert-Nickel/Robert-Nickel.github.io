@@ -54,6 +54,7 @@ td {
     color: white;
     text-decoration: none;
     padding-right: 3em;
+    font-size: .9em;
 }
 
 .heading {
@@ -144,6 +145,5 @@ td {
     text-decoration:none;
     background: black;
     padding: 0.5em;
-    
-    margin: 0.6em;
+    font-size: .9em;
 }
