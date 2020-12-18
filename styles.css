@@ -138,3 +138,12 @@ td {
 .footer {
     text-align: center;
 }
+
+.signpost a {
+    color: white;
+    text-decoration:none;
+    background: black;
+    padding: 0.5em;
+    
+    margin: 0.6em;
+}
