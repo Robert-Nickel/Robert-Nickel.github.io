@@ -11,11 +11,11 @@
 
 <body>
     <div class="header">
-        <a href="/index.html">\\\ Home</a>
-        <a href="/blog.html">\\\ Blog</a>
-        <a href="/profile.html">\\\ Profile</a>
-        <a href="/projects.html">\\\ Projects</a>
-        <a style="float: right" href="https://ko-fi.com/robertnickel">\\\ buy ☕</a>
+        <a href="/index.html">\\\&nbsp;Home</a>
+        <a href="/blog.html">\\\&nbsp;Blog</a>
+        <a href="/profile.html">\\\&nbsp;Profile</a>
+        <a href="/projects.html">\\\&nbsp;Projects</a>
+        <a style="float: right" href="https://ko-fi.com/robertnickel">\\\&nbsp;☕</a>
     </div>
     <br>
     <div id="zynical-doing-agile" class="article-box">
@@ -34,15 +34,62 @@
             Understanding, that every team member is selfish, has poor communication skills and insufficient knowledge
             to solve an undefined problem (everyone pretends to understand) in a predictable amount of time. Shifting
             the focus from believing the experts and their plans to learning, experimenting and repeatedly checking
-            something is done that might be useful. <b>Important</b>: Everyone should have a opinion about everything,
+            something is done that might be useful. <b>Important</b>: Everyone should have an opinion about everything,
             because someone in management decided we are all fullstack developers now. Basically, it is just like
             searching the light switch in a dark room, taking small steps and trying to not step on lego. And sometimes,
             in veeery rare cases, we will even work together to find it.
         </p>
     </div>
-    <div id="a-lumberjack-metaphor" class="article-box">
+    <div id="pigeonhole-principle" class="article-box">
         <hr>
         <br>
+        <p class="heading">
+            pigeonhole principle
+        </p>
+        <h1 class="title">
+            Too many pigeons for the holes?
+        </h1>
+        <p class="signature">By Robert Nickel - December 28, 2020</p>
+        <p class="text">
+            While learning for my discrete mathematics exam, I stumbled across the <a
+                href="https://www.youtube.com/watch?v=2-mxYrCNX60">pigeonhole principle</a>. A pigeonhole is where
+            pigeons like to sit. I started liking it, when I discovered, that it is so obvious in the metaphor but, at
+            least for me, took a while to become able to really apply it. The pigeon metaphor goes like this:
+            <br><br>
+            <b>If there are more pigeons than pigeonholes, at least one hole will host at least two pigeons.</b>
+        </p>
+        <div style="margin-left: 2em">
+            🐦&nbsp;--&nbsp;&nbsp;📭<br>
+            🐦&nbsp;--&nbsp;&nbsp;📭<br>
+            🐦&nbsp;--´<br>
+        </div>
+        <p class="text">
+            Obvious.
+            <br><br>
+            Please tell me <b>how many people in Sydney have the same amount of hair on their head?</b>
+            Lets estimate the maximum amount of hair: 150K. In Sydney live around 5.3M people.
+            <b>Preliminary conclusion</b>: At least 2 people in Sydney have the exact same amount of hair.
+            <br><br>
+            The pigeonhole principle goes further: It also tells us, how many people (at least) in Sydney have the same
+            amount of hair. Just divide the pigeons by the pigeonholes and ceil the number.
+            <br><br>
+            5.3M / 150K ~= 35,3 ceiled to 36.
+            <br><br>
+            <b>Conclusion</b>: At least 36 people in Sydney have the exact same amount of hair.
+            <br><br>
+            I believe there are many real world situations, in which the pigeonhole principle makes a lot of sense, and
+            I cannot wait to stumble across some of them. To be honest: For this example, it would be more effective to
+            count (or estimate) the amount of bald people, assuming they are the biggest group with the same amount of
+            hair.
+            <br><br>
+            <b>Homework</b>: At my wedding we had 125 guests. There were 6 different main courses and 3 different side
+            dishes,
+            and each guest took one main course and one side dish on their plate. How many people at least had the exact
+            same meal?
+        </p>
+    </div>
+    <div id="a-lumberjack-metaphor" class="article-box">
+        <hr><br>
         <p class="heading">
             A lumberjack metaphor
         </p>
@@ -59,43 +106,54 @@
         <ol>
             <li> <a href="https://robertnickel.online/thinking#segregating-responsibility">Segregation of
                     responsibility</a>: One marks the trees to cut, the others define how and do cut them.</li>
-            <li> The lumberjacks who have the strength, skills and tools to cut down trees, although not everyone is on
-                the same level of experience, so they help each other out. Some trees can be cut alone, others need to
-                be cut together.</li>
-            <li> The forester pays the team of lumberjacks to cut down trees, so that he can futher explore the infinite
+            <li> The lumberjacks who have the strength, skills and tools to cut down trees, although not everyone is
+                on the same level of experience, so they help each other out. Some trees can be cut alone, others need
+                to be cut together.</li>
+            <li> The forester pays the team of lumberjacks to cut down trees, so that he can futher explore the
+                infinite
                 forest of valuable trees.
             </li>
-            <li> In order to collaborate, mutual respect for the counterpart's discipline is required. Discussions and
+            <li> In order to collaborate, mutual respect for the counterpart's discipline is required. Discussions
+                and
                 proposals are valuable and humility is a prerequisite, but the circles of competence are known and
                 respected.
             </li>
             <li> The lumberjacks are able to state concerns: It could be dangerous to cut down a tree, because of
-                uncertainty where the tree will fall. Risks, depending on what is on the line (another tree? A human?),
+                uncertainty where the tree will fall. Risks, depending on what is on the line (another tree? A
+                human?),
                 need to be evaluated strategically and should be reduced on the long run.</li>
             <li> The forester can ask questions: Do you think, we can chop this tree safely already, or do we
                 need to chop another tree first?</li>
-            <li> CYA concerns are resolved easier: It is either the wrong tree, or it is the wrong way to cut it down.
+            <li> CYA concerns are resolved easier: It is either the wrong tree, or it is the wrong way to cut it
+                down.
             </li>
-            <li> No one is perfect: Sometimes a tree is mouldy (=> wrong feature), sometimes the chopping takes longer
+            <li> No one is perfect: Sometimes a tree is mouldy (=> wrong feature), sometimes the chopping takes
+                longer
                 than expected (=> unexpected technical complexity).</li>
             <li>Some trees are in the way and need to be cut down in order to get to the 'good' trees.</li>
             <li> The forester doesn't tell the lumberjacks to sharpen their chainsaw or axes (=> write tests, update
-                IDE's etc.): They know and do it themselves, better than the forester could. They will do it within the
+                IDE's etc.): They know and do it themselves, better than the forester could. They will do it within
+                the
                 working hours.</li>
             <li> It is dangerous to cut trees. It is important to have safety precautions and stick to them (=> QA).
             </li>
-            <li> After a tree is chopped, the work is not done (=> definition of done): It needs to be cut into smaller
-                pieces and carried away. Then the wood goes trough a number of procedures (=> build pipeline) in order
+            <li> After a tree is chopped, the work is not done (=> definition of done): It needs to be cut into
+                smaller
+                pieces and carried away. Then the wood goes trough a number of procedures (=> build pipeline) in
+                order
                 to
-                be made valuable. Sometimes the value is to give shelter, craft furniture or build a ship, sometimes it
+                be made valuable. Sometimes the value is to give shelter, craft furniture or build a ship, sometimes
+                it
                 just gives comfy warmth in front of a fireplace. The foresters intention might materialize here (=>
                 business value).
             </li>
         </ol>
 
         <p class="text"> To be honest, I do not know so much about lumberjacking or foresting, so forgive my
-            oversimplification and maybe misconceptions. The goal is to write about software engineering metaphorically,
-            and I find some concepts easy to understand using these wooden examples. I have a more detailled and less
+            oversimplification and maybe misconceptions. The goal is to write about software engineering
+            metaphorically,
+            and I find some concepts easy to understand using these wooden examples. I have a more detailled and
+            less
             metaphorical article about the <a
                 href="https://robertnickel.online/thinking#segregating-responsibility">segregation of responsibility
                 here</a>.
@@ -736,7 +794,6 @@
             a "20% designer - 80% software developer" mutant in the world of software engineering. Have fun!
         </p>
     </div>
-    <br>
     <div class="footer">
         <a class="profile-comment" href="impressum.html">Impressum</a> ||
         <a class="profile-comment" href="dsgvo.html">Data Protection</a>

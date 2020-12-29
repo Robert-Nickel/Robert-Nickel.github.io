@@ -138,6 +138,7 @@ td {
 
 .footer {
     text-align: center;
+    padding-top: 3em;
 }
 
 .signpost a {
@@ -146,4 +147,8 @@ td {
     background: black;
     padding: 0.5em;
     font-size: .9em;
+}
+
+b {
+    font-weight: 1000
 }
