@@ -2,7 +2,6 @@
 layout: post
 title:  "Doing agile, a cynical definition"
 heading: "cynical: doing agile"
-signature: "By Robert Nickel - December 29, 2020"
 ---
 
 **Doing agile:** We do understand, that every team member is selfish, has poor communication skills and insufficient
