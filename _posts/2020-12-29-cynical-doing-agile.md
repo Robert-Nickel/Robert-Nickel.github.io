@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Too many pigeons for the holes?"
+title:  "Doing agile, a cynical definition"
 heading: "cynical: doing agile"
 ---
 
