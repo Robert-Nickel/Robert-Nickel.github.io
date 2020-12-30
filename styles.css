@@ -145,11 +145,8 @@ b {
     background-color: white;
     min-width: 4em;
     max-width: 48em;
+    padding: 1em 1em;
     margin: 0 auto;
-}
-
-.padder {
-    padding: 3em 2em;
 }
 
 .footer {
