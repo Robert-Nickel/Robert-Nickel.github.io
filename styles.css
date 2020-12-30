@@ -148,6 +148,10 @@ b {
     margin: 0 auto;
 }
 
+.padder {
+    padding: 3em 2em;
+}
+
 .footer {
     text-align: center;
     padding-top: 3em;
