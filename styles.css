@@ -9,6 +9,9 @@ body  {
     background-color: #E9EBEE;
     font-family:'open sans',arial,sans-serif;
     margin: 0;
+}
+
+p {
     line-height: 200%;
     display: block;
     font-size: .9em;
@@ -34,6 +37,10 @@ li {
 td {
     padding-right: 2em;
     font-size: .9em;
+}
+
+b {
+    font-weight: 1000
 }
 
 .header {
@@ -153,8 +160,4 @@ td {
     background: black;
     padding: 0.5em;
     font-size: .9em;
-}
-
-b {
-    font-weight: 1000
 }
