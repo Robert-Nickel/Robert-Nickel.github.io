@@ -124,6 +124,7 @@ td {
     font-size: medium;
 }
 
+/* get rid of this */
 .article-box {
     background-color: white;
     margin-top: 3em;
@@ -131,6 +132,14 @@ td {
     margin-right: 1em;
     margin-bottom: 3em;
     padding: 2em;
+    min-width: 4em;
+    max-width: 48em;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: white;
+    padding: 3em 2em;
     min-width: 4em;
     max-width: 48em;
     margin: 0 auto;
