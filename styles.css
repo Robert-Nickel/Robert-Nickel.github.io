@@ -79,6 +79,10 @@ b {
     padding-bottom: 5px;
 }
 
+.title a {
+    text-decoration: none;
+}
+
 .signature {
     color: #c3c3c3;
     font-size: small;
@@ -128,25 +132,12 @@ b {
     font-size: medium;
 }
 
-/* get rid of this */
-.article-box {
-    background-color: white;
-    margin-top: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 3em;
-    padding: 2em;
-    min-width: 4em;
-    max-width: 48em;
-    margin: 0 auto;
-}
-
 .content {
     background-color: white;
     min-width: 4em;
     max-width: 48em;
-    padding: 1em 1em;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .footer {

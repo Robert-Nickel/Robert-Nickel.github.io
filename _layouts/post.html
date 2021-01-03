@@ -14,13 +14,12 @@
         {{ page.heading }}
     </p>
     <h1 class="title">
-        {{ page.title }}
+        <a href="{{page.url}}"> {{ page.title }}</a>
     </h1>
-    <p class="signature">By Robert Nickel - {{ page.date | date: '%B %d, %Y' }}</p>
+    <p class="signature">Robert Nickel - {{ page.date | date: '%B %d, %Y' }} - 🏷️ {{ page.categories | join: ', ' }}
+    </p>
 
     {{ content }}
     <br>
-    <p>Category: {{ page.categories | join: ', ' }} </p>
-
     <hr>
 </div>
