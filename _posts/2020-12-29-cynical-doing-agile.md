@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Doing agile, a cynical definition"
+title: Doing agile, a cynical definition
 heading: "cynical: doing agile"
+categories: [Cynical glossary, Agile]
 ---
 
 **Doing agile:** We do understand, that every team member is selfish, has poor communication skills and insufficient
