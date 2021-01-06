@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<br><br>
+<a href="/blog.html" class="top-right-link">All categories</a><br>
+
+<h1>{{ category }}</h1>
+{% for post in page.posts %}
+{{ post }}
+{% endfor %}

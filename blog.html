@@ -1,8 +1,22 @@
 ---
 layout: default
 ---
+<br><br>
+<a href="/feed.xml" class="top-right-link"">Subscribe RSS Feed</a><br>
 
-<a href="/feed.xml" style="font-size: .8em;float:right;">Subscribe RSS Feed</a><br>
+<div class="content">
+    <h1> Categories </h1>
+    <div style="text-align: center; line-height: 2em">
+            {% for category in site.categories %}
+            <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first
+                    }}</a><br>
+            {% endfor %}
+    </div>
+</div>
+<br>
+<hr>
+
+
 {% for post in site.posts %}
 {{ post }}
 {% endfor %}
