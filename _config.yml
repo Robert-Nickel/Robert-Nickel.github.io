@@ -1,6 +1,7 @@
 plugins:
   - jekyll-feed
   - jekyll-category-pages
+  - jekyll-paginate
 title: Robert Nickel's blog
 description: Welcome to my blog
 author: Robert Nickel
