@@ -20,3 +20,9 @@ I put this in a loop, together with the heading, text and signature of the post,
 - I removed the "Projects" area, since it is a category now, that can be used as a filter
 
 Conclusion: Jekyll is very lightweight, for example in comparision with WordPress. It is incredibely well documented and easy to start with (just push something to Github Pages). The terminology is intuitive and the usage of liquid enabled me to not repeat myself and have a scalable solution (in terms of adding content, categories, rss etc.). **I recommend it!**
+
+**EDIT:** Right after publishing this post I realized, that [Github Pages only supports certain plugins for Jekyll](https://pages.github.com/versions/) natively. Therefore, I had two options:
+1. Revert the category pages related changes and not use the plugin.
+2. Keep using the plugin and avoid using the Github Pages native Jekyll by just refering to the generated static code.
+   
+I chose to go with option 2 and found out that I have to create a folder called /docs in order to make it referable as document root for Github Pages. Since I want to avoid having multiple repos or branches, I then created a git pre-commit hook that copies all the files from the generated /_site folder into the /docs folder (which is refered to as document root). I find it odd, that I cannot define custom folders, since I would rather have named it "static" or similar. Anyway... using unsupported plugins should now be fine again. 🙂
