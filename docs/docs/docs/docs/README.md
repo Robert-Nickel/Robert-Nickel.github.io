@@ -1,3 +1,10 @@
+# Git Precommit Hook
+```bash
+#!/bin/sh
+cp -R _site/. docs/
+git add docs
+```
+
 # Install
 See [here](https://jekyllrb.com/docs/installation/macos/), then  
   
