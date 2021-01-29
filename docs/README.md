@@ -1,7 +1,7 @@
 # Git Precommit Hook
 ```bash
 #!/bin/sh
-cp -R _site/. docs/
+cp -R _site/. .docs/
 git add docs
 ```
 
