@@ -6,3 +6,4 @@ title: Robert Nickel's blog
 description: Welcome to my blog
 author: Robert Nickel
 permalink: /:year/:month/:day/:title:output_ext
+include: [".well-known"]
