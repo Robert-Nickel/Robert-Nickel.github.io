@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: robertnickel.online
+Token: 4fbd63973834dbbd9c49e35f2b71a0f74244ccea850ce25a37348149e550dae5
