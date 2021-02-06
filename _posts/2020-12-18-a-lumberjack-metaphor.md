@@ -11,7 +11,7 @@ metaphor of lumberjacking. A forester, who represents the product owner, leads a
 which is the development team, to the most important trees to cut down. The trees represent features or
 stories. How is this metaphor valuable?
 
-1. [Segregation of responsibility](https://robertnickel.online/thinking#segregating-responsibility): One marks the trees to cut, the others define how and do cut them.
+1. [Segregation of responsibility](https://robertnickel.online/2020/03/08/segregating-responsibility.html): One marks the trees to cut, the others define how and do cut them.
 2. The lumberjacks who have the strength, skills and tools to cut down trees, although not everyone is on the same level of experience, so they help each other out. Some trees can be cut alone, others need to be cut together.
 3. The forester pays the team of lumberjacks to cut down trees, so that he can futher explore the infinite forest of valuable trees.
 4. In order to collaborate, mutual respect for the counterpart's discipline is required. Discussions and proposals are valuable and humility is a prerequisite, but the circles of competence are known and respected.
@@ -24,4 +24,4 @@ stories. How is this metaphor valuable?
 11. It is dangerous to cut trees. It is important to have safety precautions and stick to them (=> QA).
 12. After a tree is chopped, the work is not done (=> definition of done): It needs to be cut into smaller pieces and carried away. Then the wood goes trough a number of procedures (=> build pipeline) in order to be made valuable. Sometimes the value is to give shelter, craft furniture or build a ship, sometimes it just gives comfy warmth in front of a fireplace. The foresters intention might materialize here (=> business value).
 
-To be honest, I do not know so much about lumberjacking or foresting, so forgive my oversimplification and maybe misconceptions. The goal is to write about software engineering metaphorically, and I find some concepts easy to understand using these wooden examples. I have a more detailled and less metaphorical article about the [segregation of responsibility here](https://robertnickel.online/thinking#segregating-responsibility).
+To be honest, I do not know so much about lumberjacking or foresting, so forgive my oversimplification and maybe misconceptions. The goal is to write about software engineering metaphorically, and I find some concepts easy to understand using these wooden examples. I have a more detailled and less metaphorical article about the [segregation of responsibility here](https://robertnickel.online/2020/03/08/segregating-responsibility.html).
