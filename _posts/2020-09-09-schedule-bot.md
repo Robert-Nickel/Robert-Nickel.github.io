@@ -34,6 +34,6 @@ Lessons learned:
 - ClaudiaJS, AWS Lambda and DynamoDB are really cool technologies.
 - One doesn‘t get the telegram users timezone for free, you have to ask for location permission and resolve it with a third party service or ask directly for it (as I did here), which is weird, because a lot of people do not know their timezone.
 - Don't expect anyone to use your bot, because of finding it coincidentally. Marketing a telegram bot is hard and reduced to the group of telegram users (surprise)!
-- Take a lot of time to explain the purpose of the bot really well. It should do only one thing really well](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well) and creating another bot for other things is free.
+- Take a lot of time to explain the purpose of the bot really well. It should [do only one thing really well](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well) and creating another bot for other things is free.
 
 You can find the [source code here](https://github.com/Robert-Nickel/schedule-bot)
