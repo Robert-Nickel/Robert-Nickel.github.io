@@ -2,7 +2,7 @@
 ```bash
 #!/bin/sh
 rm -r docs
-cp -R _site/. docs
+cp -R _site/. ./docs
 git add docs
 ```
 
