@@ -1,9 +1,0 @@
-plugins:
-  - jekyll-feed
-  - jekyll-category-pages
-  - jekyll-paginate
-title: Robert Nickel's Blog
-description: Software Engineer, Agile Advocate and Things Doer
-author: Robert Nickel
-permalink: /:year/:month/:day/:title:output_ext
-include: ['.well-known']
