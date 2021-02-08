@@ -1,0 +1,24 @@
+name: Robert Nickel
+image: /assets/images/profile.png
+designations:
+  - Agile Advocate
+  - Software Engineer
+  - Unfrequent Blogger
+  - Things Doer
+
+social:
+  - title: LinkedIn
+    link: 'https://www.linkedin.com/in/robert-nickel-162a9a109/'
+    icon: fa-linkedin
+
+  - title: Github
+    link: 'https://github.com/robert-nickel'
+    icon: fa-github-square
+
+  - title: Xing
+    link: 'https://www.xing.com/profile/RobertV_Nickel/cv'
+    icon: fa-xing
+
+sidebar-links:
+  - title: Contact me
+    link: /contact/

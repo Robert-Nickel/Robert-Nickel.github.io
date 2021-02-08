@@ -1,0 +1,18 @@
+# choose a color scheme for the website
+color-scheme: gray-700
+# you have these options: https://tailwindcss.com/docs/customizing-colors
+# Do not use white or lighter shades of gray since the text may not be visible
+
+touch-icon: /assets/images/touch-icon.png
+favicon: /assets/images/favicon.png
+
+footer:
+  show-footer: false
+  footer-text: "Copyrights by &copy; Robert Nickel, 2021"
+
+analytics: none
+disqus-shortname: none
+
+# this is for contact form in contact page /_pages/contact.
+formspree-action: https://formspree.io/f/myybvbnr
+#Create an account here https://formspree.io

@@ -1,0 +1,23 @@
+- name: Scala & Java
+  skillLevel: 80
+  color: "text-gray-600"
+  
+- name: Webtech
+  skillLevel: 65
+  color: "text-gray-600"
+  
+- name: Backend
+  skillLevel: 75
+  color: "text-gray-600"
+
+- name: Agile Mindset
+  skillLevel: 95
+  color: "text-gray-600"
+
+- name: QA
+  skillLevel: 85
+  color: "text-gray-600"
+
+- name: Architecture
+  skillLevel: 70
+  color: "text-gray-600"
