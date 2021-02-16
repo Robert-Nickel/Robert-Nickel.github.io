@@ -3,6 +3,7 @@ layout: post
 title: Too many pigeons for the holes?
 heading: pigeonhole principle
 categories: Thinking
+image: /assets/images/pigeon.jpeg
 ---
 
 While learning for my discrete mathematics exam, I stumbled across the

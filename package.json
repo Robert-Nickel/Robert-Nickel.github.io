@@ -33,7 +33,7 @@
   },
   "author": "Webjeda",
   "publishConfig": {
-    "access": "public"
+    "access": "docs"
   },
   "dependencies": {
     "graceful-fs": "4.2.2"

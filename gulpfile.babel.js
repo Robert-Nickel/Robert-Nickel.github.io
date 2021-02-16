@@ -7,7 +7,7 @@ import postcss from "gulp-postcss";
 import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
 
-const SITE_ROOT = "./public";
+const SITE_ROOT = "./docs";
 const POST_BUILD_STYLESHEET = `${SITE_ROOT}/assets/css/`;
 const PRE_BUILD_STYLESHEET = "./src/style.css";
 const TAILWIND_CONFIG = "./tailwind.config.js";
@@ -20,7 +20,7 @@ const isDevelopmentBuild = process.env.NODE_ENV === "development";
 task("buildJekyll", () => {
   browserSync.notify("Building Jekyll site...");
 
-  const args = ["exec", jekyll, "build", "-d", "public"];
+  const args = ["exec", jekyll, "build", "-d", "docs"];
 
   if (isDevelopmentBuild) {
     args.push("--incremental");
@@ -64,7 +64,7 @@ task("startServer", () => {
       "**/*.md",
       "**/*.yml",
       "**/*.markdown",
-      "!public/**/*",
+      "!docs/**/*",
       "!node_modules/**/*",
     ],
     { interval: 500 },

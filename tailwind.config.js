@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [`public/**/*.html`],
+  purge: [`docs/**/*.html`],
   theme: {
     container: {
       center: true,

@@ -3,6 +3,7 @@ layout: post
 title: The two dimensions of an increment
 heading: Segregating responsibility
 categories: Agile
+image: /assets/images/apple.jpeg
 ---
 
 This post discusses the segregation of responsibility of an increment between technical people and business people. I experienced a very unclear understanding of this topic on both sides, which usually leads to wrong decisions and poor quality. I believe the proposed model will lead to a better sense of responsibility and therefore greater results.

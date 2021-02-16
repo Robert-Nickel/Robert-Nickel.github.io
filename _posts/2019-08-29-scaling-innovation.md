@@ -3,6 +3,7 @@ layout: post
 title: The McDonald's of Software Development
 heading: Scaling innovation
 categories: Thinking
+image: /assets/images/mcdonalds.jpeg
 ---
 
 

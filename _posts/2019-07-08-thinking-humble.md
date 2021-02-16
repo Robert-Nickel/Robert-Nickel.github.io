@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The quality of an answer to an open question
-heading: Thinking humble
 categories: Thinking
+image: /assets/images/open.jpeg
 ---
 
 

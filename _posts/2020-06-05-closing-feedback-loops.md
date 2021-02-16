@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Hammurabis understanding of evolutionary loops"
-heading: "Closing feedback loops"
+title: Hammurabis understanding of evolutionary loops
 categories: [Thinking, Agile]
-
+image: /assets/images/house.jpeg
 ---
 
 

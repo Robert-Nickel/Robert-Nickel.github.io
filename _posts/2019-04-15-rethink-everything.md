@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Refining the whole product after 2 years.. and maaan, where did we go?
-heading: Rethink everything
 categories: Agile
+image: /assets/images/compass.jpeg
 ---
 
 A lot of people do retrospectives. A lot of teams do that on a regular basis. They sit down, think about     the last two weeks or so, identify problems they have had and find action items to improve.

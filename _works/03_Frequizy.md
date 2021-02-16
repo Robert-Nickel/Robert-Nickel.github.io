@@ -1,6 +1,6 @@
 ---
-title: "Frequizy - Android App"
-description: Train your perfect pitch by estimating frequencies.
+title: Frequizy
+description: Android App
 image: "/assets/images/frequizy.png"
 layout: page
 ---

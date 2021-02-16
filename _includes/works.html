@@ -2,15 +2,15 @@
   <h2
     class="font-bold text-xl pb-3 mb-3 border-b"
     data-sal="slide-up"
-    data-sal-duration="800"
+    data-sal-duration="500"
   >
-    My <span class="text-blue-500">Works</span>
+    <span class="text-{{site.data.settings.color-scheme}}">Portfolio</span>
   </h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-3">
     {% for work in site.works limit: 4 %}
 
     <a href="{{work.url}}">
-      <div data-sal="slide-up" data-sal-duration="800">
+      <div data-sal="slide-up" data-sal-duration="500">
         <img
           src="/assets/images/onepx.png"
           class="lazy h-44 w-full object-cover object-center rounded"

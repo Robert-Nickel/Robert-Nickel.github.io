@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Only split a story, when it is too big?
-heading: Being cohesive
 categories: Agile
+image: /assets/images/split.jpeg
 ---
 
 Story Estimations in the world of agile software development is, in my opinion, a totally underrated topic*.     It has major influence on several important topics, such as the agile mindset of the team, the trust between the PO and the development team, and how to deal with pressure. I observed several biases related to this topic, and today I am going to write about one of them, the "Only split a story, when it is too big" bias.

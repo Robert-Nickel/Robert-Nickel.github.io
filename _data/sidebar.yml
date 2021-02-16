@@ -20,5 +20,7 @@ social:
     icon: fa-xing
 
 sidebar-links:
+  - title: Blog
+    link: /blog/
   - title: Contact me
     link: /contact/

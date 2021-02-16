@@ -1,6 +1,6 @@
 ---
-title: "@MyScheduleRobot - A Telegram Bot"
-description: A bot that assists students staying organized with their timetables.
+title: Schedule Secretary
+description: Telegram Bot
 image: "/assets/images/schedulerobot.jpeg"
 layout: page
 ---

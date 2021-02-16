@@ -1,12 +1,24 @@
-- name: Scala & Java
+- name: Java
   skillLevel: 80
   color: "text-gray-600"
-  
-- name: Webtech
-  skillLevel: 65
+
+- name: Scala
+  skillLevel: 70
+  color: "text-gray-600"
+
+- name: Python
+  skillLevel: 30
   color: "text-gray-600"
   
-- name: Backend
+- name: JavaScript
+  skillLevel: 65
+  color: "text-gray-600"
+
+- name: TypeScript
+  skillLevel: 60
+  color: "text-gray-600"
+  
+- name: HTML & CSS
   skillLevel: 75
   color: "text-gray-600"
 
@@ -14,10 +26,11 @@
   skillLevel: 95
   color: "text-gray-600"
 
-- name: QA
+- name: TDD & BDD
   skillLevel: 85
   color: "text-gray-600"
 
 - name: Architecture
   skillLevel: 70
   color: "text-gray-600"
+

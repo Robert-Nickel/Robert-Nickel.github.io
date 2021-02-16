@@ -1,8 +1,9 @@
 ---
 layout: post
-title: I built a Telegram Bot for pupils/students schedule (MyScheduleRobot)
+title: I built a Telegram Bot for students
 heading: A Telegram Bot
 categories: Projects
+image: /assets/images/schedulerobot.jpeg
 ---
 
 My younger brother tried to build a telegram bot, that gives him some information about his schedule,
