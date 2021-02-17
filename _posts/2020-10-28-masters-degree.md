@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Im doing my masters degree now
-heading: Masters Degree
+title: Back to School
 categories: Personal
 image: /assets/images/university.jpeg
 ---

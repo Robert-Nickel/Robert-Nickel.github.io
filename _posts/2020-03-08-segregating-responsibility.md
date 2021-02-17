@@ -1,7 +1,6 @@
 ---
 layout: post
-title: The two dimensions of an increment
-heading: Segregating responsibility
+title: The 2 Dimensions of an Increment
 categories: Agile
 image: /assets/images/apple.jpeg
 ---

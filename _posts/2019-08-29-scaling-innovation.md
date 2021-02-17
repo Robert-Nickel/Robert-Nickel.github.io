@@ -1,11 +1,9 @@
 ---
 layout: post
-title: The McDonald's of Software Development
-heading: Scaling innovation
+title: The McDonald's of Software Engineering
 categories: Thinking
 image: /assets/images/mcdonalds.jpeg
 ---
-
 
 Often when I tell people, that I am a Software Engineer, they explain their idea of a game changing app, but don't know how to make it real. People backtrack when they find out about the cost of software development, because they fear the risk and often have no clue about this whole craftmansship. This does not mean, that the ideas are worthless, many of them are really good and some are actually game changing, I believe. So there is value, but no one picks it up.
 

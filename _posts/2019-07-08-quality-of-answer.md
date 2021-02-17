@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The quality of an answer to an open question
+title: The Quality of an Answer to an open Question
 categories: Thinking
 image: /assets/images/open.jpeg
 ---

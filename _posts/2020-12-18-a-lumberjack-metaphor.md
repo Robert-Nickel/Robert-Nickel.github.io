@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Software Engineers are Lumberjacks, Features are Trees
-heading: A lumberjack metaphor
+title: A Lumberjack Metaphor
 categories: Agile
 image: /assets/images/lumberjack.jpeg
 ---

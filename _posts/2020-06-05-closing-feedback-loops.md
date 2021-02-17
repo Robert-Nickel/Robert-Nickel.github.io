@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hammurabis understanding of evolutionary loops
+title: Closing Feedback Loops like a King
 categories: [Thinking, Agile]
 image: /assets/images/house.jpeg
 ---

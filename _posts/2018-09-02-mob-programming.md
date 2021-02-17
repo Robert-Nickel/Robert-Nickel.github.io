@@ -1,7 +1,6 @@
 ---
 layout: post
-title: I talked about Mob Programming
-heading: Mob Programming
+title: 'Video: Lightning talk about Mob Programming'
 categories: Agile
 image: /assets/images/mob_talk.png
 ---
