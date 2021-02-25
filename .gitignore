@@ -125,4 +125,3 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/node,jekyll
 .DS_Store
-docs/CNAME
