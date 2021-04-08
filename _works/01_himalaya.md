@@ -7,4 +7,4 @@ layout: page
 
 [Find the shop here.](https://himalayafairtrade.de/)
 
-I built this onlineshop, based on shopify. Explore beautiful products from far east.
+I built this online shop based on shopify. Explore beautiful products from Far East.

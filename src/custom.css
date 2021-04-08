@@ -12,7 +12,8 @@ h6 {
   @apply text-gray-700;
 }
 
-.post a {
+.post a,
+.page a {
   @apply underline;
 }
 .post p,
@@ -80,7 +81,7 @@ h6 {
 }
 .post,
 .page {
-  @apply leading-relaxed
+  @apply leading-relaxed;
 }
 code.highlighter-rouge {
   @apply bg-gray-600 px-2 py-1 my-1 rounded text-white;
