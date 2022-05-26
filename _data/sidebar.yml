@@ -27,6 +27,8 @@ social:
 sidebar-links:
   - title: Blog
     link: /blog/
+  - title: Portfolio
+    link: /works/
   - title: Contact me
     link: /contact/
   - title: Impressum
