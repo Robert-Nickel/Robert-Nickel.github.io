@@ -1,3 +1,7 @@
+- title: Work for your Company
+  description: If your company has a great culture and creates valuable digital products, I could work for you.
+  icon: '<i class="fas text-white text-xl fa-solid fa-briefcase"></i>'
+
 - title: App Development
   description: I make your product idea real, I cover everything from ideation to operation.
   icon: '<i class="fas text-white text-xl fa-rocket"></i>'
@@ -5,8 +9,3 @@
 - title: Agile Coaching
   description: I could join your team and help you adopting useful agile practices.
   icon: '<i class="fas text-white text-xl fa-flag-checkered"></i>'
-
-- title: Work for your Company
-  description: If your company has a great culture and creates valuable digital products, I could work for you.
-  icon: '<i class="fas text-white text-xl fa-solid fa-briefcase"></i>'
-
