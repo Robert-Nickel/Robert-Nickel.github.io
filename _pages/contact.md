@@ -24,5 +24,6 @@ permalink: /contact/
 </div>
 
 </form>
-
+<br>
+<br>
 or just send me an email to contact@robertnickel.online.
