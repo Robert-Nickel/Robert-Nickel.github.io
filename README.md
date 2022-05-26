@@ -1,13 +1,11 @@
 pre-commit hook:
 
 ```
-#!/bin/sh
 rm -r docs/
 bundle exec jekyll build
-rm -r _site/docs/
+npx tailwindcss -i ./src/style.css -o _site/assets/css/style.css
 cp -R _site/. docs/
-cp CNAME docs/
-cp -a src/. docs/ 
+rm -r _site/
 git add docs
 git restore .
 git clean -f
