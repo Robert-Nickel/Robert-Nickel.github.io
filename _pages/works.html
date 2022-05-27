@@ -1,21 +1,21 @@
 ---
-title: Portfolio
+title: My Work
 layout: page
-permalink: /works/
+permalink: /work/
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-  {% for post in site.works %} {% if post.image %}
-  <a href="{{post.url}}" class="no-underline">
+  {% for work in site.works %} {% if work.image %}
+  <a href="{{work.url}}" class="no-underline">
     <img
       src="/assets/images/onepx.png"
-      data-src="{{post.image}}"
-      alt="{{post.title}}"
+      data-src="{{work.image}}"
+      alt="{{work.title}}"
       class="lazy rounded w-full"
     />
     {% endif %}
-    <h4 class="text-xl font-semibold text-center">{{post.title}}</h4>
-    <p class="text-center">{{post.description}}</p>
+    <h4 class="text-xl font-semibold text-center">{{work.title}}</h4>
+    <p class="text-center">{{work.description}}</p>
   </a>
   {% endfor %}
 </div>

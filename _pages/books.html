@@ -1,0 +1,13 @@
+---
+title: Books I've read
+layout: page
+permalink: /books/
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  {% for book in site.data.books %} 
+    <h4 class="text-xl font-semibold text-center">{{book.title}}</h4>
+    <p class="text-center mb-8">by {{book.author}}</p>
+  </a>
+  {% endfor %}
+</div>
