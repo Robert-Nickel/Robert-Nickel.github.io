@@ -6,9 +6,9 @@
     {% for book in site.data.books limit: 6 %}
     <div data-sal="slide-up" data-sal-duration="500">
       <h3 class="font-semibold text-center">{{book.title}}</h3>
-       <p class="text-sm text-center">by {{book.author}}</p>
+      <p class="text-center">by {{book.author}} </p>
     </div>
-    
+
     {% endfor %}
   </div>
 </div>

@@ -5,9 +5,12 @@ permalink: /books/
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-  {% for book in site.data.books %} 
+  {% for book in site.data.books %}
+  <div>
     <h4 class="text-xl font-semibold text-center">{{book.title}}</h4>
-    <p class="text-center mb-8">by {{book.author}}</p>
+    <p class="text-center">by {{book.author}} </p>
+    <p class="text-center mb-8">read in {{book.year}}</p>
+  </div>
   </a>
   {% endfor %}
 </div>
