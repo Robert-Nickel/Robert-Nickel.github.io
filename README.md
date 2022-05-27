@@ -1,5 +1,6 @@
-pre-commit hook:
+## Build on commit
 
+pre-commit hook:
 ```
 rm -r docs/
 bundle exec jekyll build
@@ -10,3 +11,10 @@ git add docs
 git restore .
 git clean -f
 ```
+
+## Run locally
+`bundle exec jekyll serve`
+
+and in another tab
+
+`npx tailwindcss -i ./src/style.css -o _site/assets/css/style.css` (re-run after saving changes)
