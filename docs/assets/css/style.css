@@ -32279,6 +32279,10 @@ video {
   src: local('Open Sans'), local('OpenSans'), url('https://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 
+a {
+  text-decoration: underline;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

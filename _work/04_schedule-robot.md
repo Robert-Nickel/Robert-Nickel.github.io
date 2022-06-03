@@ -12,7 +12,6 @@ You can test the bot here (imagine you are still at school): [t.me/MyScheduleRob
 Now some functional details: This bot is a schedule bot, it is not a calendar.
 To make the difference, and therefore what it does and what it doesn't, more clear:
 <br><br>
----
 
 | Schedule                                                                                     | Calendar                                                                                          |
 | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -20,7 +19,6 @@ To make the difference, and therefore what it does and what it doesn't, more cle
 | Timeslots repeat every day (🔔 rings)                                                         | Timeslots are vary a lot                                                                          |
 | [Compare this](https://i.pinimg.com/originals/e8/ec/d1/e8ecd11f3c278afd7b3543a2b81fd1ea.png) | [with this](https://cdn.vertex42.com/calendars/images/monthly-calendar-with-combined-weekend.png) |
 
----
 <br><br>
 
 
