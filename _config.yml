@@ -23,9 +23,9 @@ exclude:
   - netlify.toml
 
 collections:
-  works:
+  work:
     output: true
-    permalink: /works/:path/
+    permalink: /work/:path/
 
 plugins:
   - jekyll-seo-tag

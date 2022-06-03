@@ -13,4 +13,4 @@ I thought about this a lot, especially about the question, how I could build thi
 
 Innovation in general is the effort of many but the success of few, and those Einsteins who get humanity to the next level might get the prestige and/or the money.
 
-What can we get out of this? The bad news are, that you will need to have the game changing idea **and** the resources to make it real. But on the other hand, due to higher level programming languages, reusable components and frameworks, better ways of teaching and learning technology and more digital natives with upcoming generations, it is getting cheaper and more accessible over time to develop innovative software that changes the world.
+What can we get out of this? The bad news are, that you will need to have the game changing idea **and** the resources to make it real. But on the other hand, due to higher level programming languages, reusable components and framework, better ways of teaching and learning technology and more digital natives with upcoming generations, it is getting cheaper and more accessible over time to develop innovative software that changes the world.
