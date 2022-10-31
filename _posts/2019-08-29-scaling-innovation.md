@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The McDonald's of Software Engineering
-categories: Thinking
+categories: [Thinking, Innovation]
 image: /assets/images/mcdonalds.jpeg
 ---
 
